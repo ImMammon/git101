@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(){
-
-    printf("Hello git");
-
-
+int main() {
+    char text[] = "Hello git";
+    printf("%s\n", text);
+    
+    return 0;
 }
